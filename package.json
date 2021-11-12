@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write README.md \"{components,lib,pages,posts,styles}/**/{*.md,*.json,*.css,*.js*}\""
+    "format": "prettier --write README.md \"{components,lib,pages,posts,styles}/**/{*.md,*.json,*.css,*.ts*}\""
   },
   "dependencies": {
     "date-fns": "^2.25.0",
@@ -16,6 +16,9 @@
     "remark-html": "^15.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "@types/node": "^16.11.7",
+    "@types/react": "^17.0.34",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
   }
 }
