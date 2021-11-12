@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write README.md \"src/**/{*.md,*.json,*.css,*.js*}\""
+    "format": "prettier --write README.md \"{components,lib,pages,posts,styles}/**/{*.md,*.json,*.css,*.js*}\""
   },
   "dependencies": {
     "date-fns": "^2.25.0",
